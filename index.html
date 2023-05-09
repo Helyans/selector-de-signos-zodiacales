@@ -1,0 +1,64 @@
+<div class="zodiac-selector">
+  <div class="zodiac-ball aries">
+    <span class="zodiac-name">Aries</span>
+  </div>
+  <div class="zodiac-ball taurus">
+    <span class="zodiac-name">Taurus</span>
+  </div>
+  <div class="zodiac-ball gemini">
+    <span class="zodiac-name">Gemini</span>
+  </div>
+  <div class="zodiac-ball cancer">
+    <span class="zodiac-name">Cancer</span>
+  </div>
+  <div class="zodiac-ball leo">
+    <span class="zodiac-name">Leo</span>
+  </div>
+  <div class="zodiac-ball virgo">
+    <span class="zodiac-name">Virgo</span>
+  </div>
+  <div class="zodiac-ball libra">
+    <span class="zodiac-name">Libra</span>
+  </div>
+  <div class="zodiac-ball scorpio">
+    <span class="zodiac-name">Scorpio</span>
+  </div>
+  <div class="zodiac-ball sagittarius">
+    <span class="zodiac-name">Sagittarius</span>
+  </div>
+  <div class="zodiac-ball capricorn">
+    <span class="zodiac-name">Capricorn</span>
+  </div>
+  <div class="zodiac-ball aquarius">
+    <span class="zodiac-name">Aquarius</span>
+  </div>
+  <div class="zodiac-ball pisces">
+    <span class="zodiac-name">Pisces</span>
+  </div>
+</div>
+.zodiac-selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.zodiac-ball {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  animation: rotate 12s linear infinite;
+  transition: transform 0.3s ease-in-out, width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.zodiac-ball:hover {
+  transform: scale(1.5);
+  width: 80px;
+  height
